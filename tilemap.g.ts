@@ -6,7 +6,7 @@ namespace myTiles {
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "level1":
-            case "level1":return tiles.createTilemap(hex`10001000010304030405060708090a0b0c0304010102020202020202020202020202020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d02010102020202020202020202020202020101010101010101010101010101010101`, img`
+            case "level1":return tiles.createTilemap(hex`10001000010304030405060708090a0b0c0304010102020202020202020202020202020101020f0e1010100d0d0d0d0d0d0d020101020e0f100e0f0d0d0d0d0d0d0d020101020f100e0f0f0d0d0d0d0d0d0d020101020e100f100e0d0d0d0d0d0d0d02010102100f0e10100d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d020101020d0d0d0d0d0d0d0d0d0d0d0d02010102020202020202020202020202020101010101010101010101010101010101`, img`
 . . . . . . . . . . . . . . . . 
 . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
 . 2 . . . . . . . . . . . . 2 . 
@@ -23,7 +23,7 @@ namespace myTiles {
 . 2 . . . . . . . . . . . . 2 . 
 . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
 . . . . . . . . . . . . . . . . 
-`, [myTiles.transparency16,sprites.dungeon.hazardLava0,sprites.builtin.brick,sprites.builtin.crowd0,sprites.builtin.crowd1,sprites.builtin.crowd2,sprites.builtin.crowd3,sprites.builtin.crowd4,sprites.builtin.crowd5,sprites.builtin.crowd6,sprites.builtin.crowd7,sprites.builtin.crowd8,sprites.builtin.crowd9,sprites.skillmap.islandTile4], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.hazardLava0,sprites.builtin.brick,sprites.builtin.crowd0,sprites.builtin.crowd1,sprites.builtin.crowd2,sprites.builtin.crowd3,sprites.builtin.crowd4,sprites.builtin.crowd5,sprites.builtin.crowd6,sprites.builtin.crowd7,sprites.builtin.crowd8,sprites.builtin.crowd9,sprites.skillmap.islandTile4,sprites.castle.tileDarkGrass2,sprites.castle.tileDarkGrass1,sprites.castle.tileDarkGrass3], TileScale.Sixteen);
         }
         return null;
     })
