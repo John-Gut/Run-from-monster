@@ -9,7 +9,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     Average = Sum / Count
     Score = 0
     game.showLongText("You lost but here’s your average!!!", DialogLayout.Center)
-    game.splash(Score)
+    game.splash(Average)
     Life += 1
 })
 let monster: Sprite = null
@@ -76,6 +76,6 @@ forever(function () {
             ........................
             `, SpriteKind.Enemy)
         monster.setPosition(randint(30, 100), randint(30, 100))
-        monster.follow(mySprite)
+        monster.follow(mySprite, 50)
     }
 })
